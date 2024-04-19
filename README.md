@@ -1,2 +1,2 @@
-# bhaskara-calculator.github.io
+# bhaskara-calculator
 Bhaskara calculator
