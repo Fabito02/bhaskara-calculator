@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bhaskara</title>
+</head>
+<style>
+input[type="number"] {
+    border-color:#ad724a; 
+    border-radius: 5px; 
+    border-width: 4px;
+    border-style: solid;
+}
+body{background-color: #fcf6f0;}
+img{
+    border-radius: 5px;
+    float: right;
+    margin-right: 50%;
+    width: 30%;
+}
+input[type="button"] {
+    background-color: #728c72;
+    border-radius: 5px;
+    border-width: 0px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dca069;
+    border-radius: 7px;
+    width: 49%;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: solid;
+    border-color: #dca069;
+    border-radius: 5px;
+    width: 15%;
+    border-width: 4px;
+}
+</style>
+<body>
+<h1>Calculadora de Equação do Segundo Grau</h1>
+<img src="eq.jpg" alt="imagem aleatória pra deixar bonitinho"><br><br>
+<input type="number" id="a" placeholder="Escreva o valor 'a'"><br><br>
+<input type="number" id="b" placeholder="Escreva o valor 'b'"><br><br>
+<input type="number" id="c" placeholder="Escreva o valor 'c'"><br><br>
+<input type="button" value="Resultado" onclick="bhaskara()"><br>
+<h3 id="result"></h3>
+<script src="Bhaskara_Script.js"></script>
+</body>
+</html>
